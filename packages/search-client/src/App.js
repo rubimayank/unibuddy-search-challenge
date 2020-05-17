@@ -1,25 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useMemo } from 'react';
+import styled, { createGlobalStyle } from 'styled-components';
+
+const GlobalStyles = createGlobalStyle`
+  /* lazy reset */
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #eee;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+`;
+
+const AppWrapper = styled.div`
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 100vh;
+  background: #fff;
+`;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AppWrapper>
+      <h1>Search Demo</h1>
+      <GlobalStyles />
+    </AppWrapper>
   );
 }
 
