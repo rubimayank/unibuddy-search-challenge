@@ -1,0 +1,23 @@
+{
+  "name": "unibuddy-search-challenge",
+  "version": "1.0.0",
+  "repository": "git@github.com:rubimayank/unibuddy-search-challenge.git",
+  "author": "Rubita <rubita.kumari@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "devDependencies": {
+    "commitizen": "^4.1.2",
+    "cz-conventional-changelog": "3.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
