@@ -5,38 +5,40 @@ const cleanText = require('./cleanText');
  */
 class SearchIndex {
   /**
-   * @property {object} wordIndex - internal word index
-   */
-  wordIndex = {};
-
-  /**
-   * @property {object} dataset - all the records added to the search index
-   */
-  dataset = {};
-
-  /**
-   * @property {number} count of records
-   */
-  size = 0;
-
-  /**
-   * @constructs 
+   * @constructs
    */
   constructor(params = {}) {
-    const { 
-      initialData = [], 
+    // not use class properties case CRA by default doesnt transpile third party libs
+    /**
+     * @property {object} wordIndex - internal word index
+     */
+    this.wordIndex = {};
+
+    /**
+     * @property {object} dataset - all the records added to the search index
+     */
+    this.dataset = {};
+
+    /**
+     * @property {number} count of records
+     */
+    this.size = 0;
+
+    const {
+      initialData = [],
       idField = 'id',
       searchFeild = 'summary',
     } = params;
     this.idField = idField;
     // creating a single field index, can be made multifields such as index on both summary and title
     this.searchFeild = searchFeild;
-    initialData.forEach(this.addRecord.bind(this)); 
+
+    initialData.forEach(this.addRecord.bind(this));
   }
 
   /**
    * @method addRecord add a record the search index
-   * @param {object|string} record - record to add to the index 
+   * @param {object|string} record - record to add to the index
    */
   addRecord(record) {
     // get the idField's value from the record or fallback to dataset length
@@ -79,11 +81,11 @@ class SearchIndex {
    * @param {number} count - result length
    * @return {array[object]} result record sorted by relavance
    */
-  search(query, count) {
+  search(query, count = 10) {
     // get the clean query, we'll use it later for exact match
     const cleanQuery = cleanText(query);
-    
-    // again we will need terms for later 
+
+    // again we will need terms for later
     const terms = cleanQuery.split(' ');
 
     // simply adding frequency scores of every word as of now
@@ -101,7 +103,6 @@ class SearchIndex {
 
     let results = [];
     sortedMap.forEach(([id, freq]) => {
-      console.log(id);
       const { text, record } = this.dataset[id];
       // exact match
       if (freq >= terms.length && text.includes(cleanQuery)) {

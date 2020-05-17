@@ -1,5 +1,8 @@
-import React, { useState, useMemo } from 'react';
+import React, { useMemo } from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
+
+import BookSearch from './components/BookSearch';
+import data from './data.json';
 
 const GlobalStyles = createGlobalStyle`
   /* lazy reset */
@@ -22,12 +25,28 @@ const AppWrapper = styled.div`
   margin: 0 auto;
   min-height: 100vh;
   background: #fff;
+  padding: 40px;
 `;
 
 function App() {
+  const books = useMemo(() => {
+    // assuming that the data structure of the json will not change
+    const { titles, summaries, authors } = data;
+    return titles.map((title, id) => {
+      const { author } = authors[id];
+      const { summary } = summaries[id];
+      return {
+        id,
+        title,
+        author,
+        // replacing following string from every summary
+        summary: summary.replace(/^the book in three sentences\s*?(:)?/i, '').trim(),
+      };
+    });
+  }, []);
   return (
     <AppWrapper>
-      <h1>Search Demo</h1>
+      <BookSearch books={books} />
       <GlobalStyles />
     </AppWrapper>
   );
