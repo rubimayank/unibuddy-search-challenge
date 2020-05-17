@@ -25,7 +25,7 @@ const AppWrapper = styled.div`
   margin: 0 auto;
   min-height: 100vh;
   background: #fff;
-  padding: 40px;
+  padding: 8px;
 `;
 
 function App() {

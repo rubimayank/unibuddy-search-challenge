@@ -5,7 +5,7 @@ import {
 } from 'react-icons/fi';
 
 const Wrapper = styled.div`
-  width: 500px;
+  width: 100%;
   height: 40px;
   position: relative;
 `;

@@ -7,7 +7,9 @@ import {
 import Input from './Input';
 
 const Wrapper = styled.div`
+  width: 100%;
   position: relative;
+  max-width: 480px;
 `;
 
 const SuggestionsWrapper = styled.div`
@@ -20,6 +22,7 @@ const SuggestionsWrapper = styled.div`
   border: solid 1px #c3c4c7;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
+  z-index: 10;
 `;
 
 const SuggestionsList = styled.ul`

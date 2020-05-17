@@ -7,9 +7,11 @@ import {
 
 import Search from './Search';
 import PrimaryButton from './PrimaryButton';
+import BookCard from './BookCard';
 
 const SearchBoxWrapper = styled.div`
   display: flex;
+  margin: 16px;
   justify-content: center;
   input {
     border-top-right-radius: 0;
@@ -22,7 +24,19 @@ const SearchBoxWrapper = styled.div`
   }
 `;
 
-const BookSuggestion = styled.span`
+const SearchResults = styled.div`
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  > div {
+    display: flex;
+    @media screen and (min-width: 600px) {
+      flex-basis: 50%;
+    }
+    @media screen and (min-width: 1000px) {
+      flex-basis: 33%;
+    }
+  }
 `;
 
 function BookSearch({ books }) {
@@ -64,6 +78,10 @@ function BookSearch({ books }) {
     setSearchSelection(null);
   };
 
+  const onRemove = (id) => {
+    setBookSelection(selectedBooks.filter(i => i !== id));
+  };
+
   // when a suggestion is selected
   const onSuggestionSelect = (suggestion) => {
     setSuggestions([]);
@@ -80,9 +98,7 @@ function BookSearch({ books }) {
           onChange={onTermChange}
           suggestions={suggestions}
           onSelect={onSuggestionSelect}
-          renderSuggestion={(result) => (
-            <BookSuggestion>{result.title}</BookSuggestion>
-          )}
+          renderSuggestion={(result) => result.title}
           noSuggestion='No books found'
           searchSelection={searchSelection}
         />
@@ -90,9 +106,17 @@ function BookSearch({ books }) {
           <FiSearch />
         </PrimaryButton>
       </SearchBoxWrapper>
-      <div>
-        {JSON.stringify(selectedBooks)}
-      </div>
+      <SearchResults>
+        {selectedBooks.map(id => (
+          <div>
+            <BookCard
+              key={id}
+              book={books[id]}
+              onRemove={() => onRemove(id)}
+            />
+          </div>
+        ))}
+      </SearchResults>
     </>
   );
 }
