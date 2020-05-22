@@ -11,7 +11,7 @@
   "scripts": {
     "commit": "git-cz",
     "start": "SKIP_PREFLIGHT_CHECK=true yarn workspace search-client run start",
-    "test": "yarn workspace search-index run test"
+    "test": "SKIP_PREFLIGHT_CHECK=true yarn workspaces run test"
   },
   "devDependencies": {
     "commitizen": "^4.1.2",
