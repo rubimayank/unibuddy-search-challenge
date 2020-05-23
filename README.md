@@ -6,9 +6,9 @@
   yarn
   yarn start
   
-  // to test (only search-index as of now)
+  // to test
   yarn test 
 ```
 
 ## @TODO
-- Frontend test cases
+- BookSearch Page test cases
