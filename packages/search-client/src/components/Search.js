@@ -41,26 +41,16 @@ const Suggestion = styled.li`
   `}
 `;
 
-/*
- * @TODO -> changing position of cursor with mouse and creates a bug as
- * of now where after keypress cursor moves to the end of the input.
- * this can be fixed ->
- * https://medium.com/@prijuly2000/data-formatting-cursor-positioning-in-react-86c52008d0fc
- */
-
 function Search({
   value,
   onChange,
   suggestions,
   onSelect,
   renderSuggestion,
-  noSuggestion,
+  noSuggestion = 'No Results',
   searchSelection,
   ...inputProps
 }) {
-  // copy of the value prop. this is kept to avoid search when term is changed due to suggestion highlight
-  const [term, setTerm] = useState(value);
-
   const [focused, updateFocused] = useReducer((index, action) => {
     switch(action.type) {
       // down arrow, when user reaches the last index, keep it there
@@ -72,7 +62,7 @@ function Search({
       // change on mouse movement
       case 'change':
         return action.index;
-      // reset when term changes
+      // reset when value changes
       case 'reset':
         return -1;
       default:
@@ -80,13 +70,10 @@ function Search({
     }
   }, -1);
 
-  // change term when prop.value changes
-  useEffect(() => setTerm(value), [value]);
-
   // ref which points to current focused element, used for scrollIntoView
   const focusedResult = useRef(null);
 
-  // scroll when focused index changes and change display term
+  // scroll when focused index changes
   useEffect(() => {
     if (focusedResult.current) {
       focusedResult.current.scrollIntoView({
@@ -130,13 +117,13 @@ function Search({
     <Wrapper>
       <Input
         icon={<FiSearch color='#b4b8bf' />}
-        value={term}
+        value={value}
         onChange={({ target }) => onChange(target.value)}
-        onClear={term ? () => onChange('') : null}
+        onClear={value ? () => onChange('') : null}
         onKeyDown={onSearchBoxKey}
         {...inputProps}
       />
-      {!!term && !searchSelection && (
+      {!!value && !searchSelection && (
         <SuggestionsWrapper>
           <SuggestionsList>
             {!!suggestions.length ? suggestions.map((result, index) => (

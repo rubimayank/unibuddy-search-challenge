@@ -1,0 +1,1453 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`input should change focus on keyboard arrowdown 1`] = `
+.c1 {
+  width: 100%;
+  height: 40px;
+  position: relative;
+}
+
+.c2 {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  padding: 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  margin: 0;
+  padding: 8px;
+  border: 0;
+  background: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  right: 0;
+  top: 0;
+}
+
+.c3 {
+  width: 100%;
+  height: 100%;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 8px 24px;
+  z-index: 0;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.c0 {
+  width: 100%;
+  position: relative;
+  max-width: 480px;
+}
+
+.c5 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  max-height: 344px;
+  overflow-y: scroll;
+  border: solid 1px #c3c4c7;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  z-index: 10;
+}
+
+.c6 {
+  list-style: none;
+}
+
+.c8 {
+  background: #fff;
+  border-bottom: solid 1px #c3c4c7;
+  padding: 12px;
+}
+
+.c8:last-child {
+  border: 0;
+}
+
+.c7 {
+  background: #fff;
+  border-bottom: solid 1px #c3c4c7;
+  padding: 12px;
+  background: #fffedc;
+}
+
+.c7:last-child {
+  border: 0;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <svg
+        color="#b4b8bf"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": "#b4b8bf",
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="11"
+          cy="11"
+          r="8"
+        />
+        <line
+          x1="21"
+          x2="16.65"
+          y1="21"
+          y2="16.65"
+        />
+      </svg>
+    </div>
+    <input
+      className="c3"
+      onChange={[Function]}
+      onKeyDown={[Function]}
+      value="foo"
+    />
+    <button
+      className="c4"
+      onClick={[Function]}
+      title="Clear"
+    >
+      <svg
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <line
+          x1="18"
+          x2="6"
+          y1="6"
+          y2="18"
+        />
+        <line
+          x1="6"
+          x2="18"
+          y1="6"
+          y2="18"
+        />
+      </svg>
+    </button>
+  </div>
+  <div
+    className="c5"
+  >
+    <ul
+      className="c6"
+    >
+      <li
+        className="c7"
+        onClick={[Function]}
+        onMouseMove={[Function]}
+      >
+        foo1
+      </li>
+      <li
+        className="c8"
+        onClick={[Function]}
+        onMouseMove={[Function]}
+      >
+        foo2
+      </li>
+      <li
+        className="c8"
+        onClick={[Function]}
+        onMouseMove={[Function]}
+      >
+        foo5
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`input should change focus on keyboard arrowup 1`] = `
+.c1 {
+  width: 100%;
+  height: 40px;
+  position: relative;
+}
+
+.c2 {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  padding: 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  margin: 0;
+  padding: 8px;
+  border: 0;
+  background: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  right: 0;
+  top: 0;
+}
+
+.c3 {
+  width: 100%;
+  height: 100%;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 8px 24px;
+  z-index: 0;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.c0 {
+  width: 100%;
+  position: relative;
+  max-width: 480px;
+}
+
+.c5 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  max-height: 344px;
+  overflow-y: scroll;
+  border: solid 1px #c3c4c7;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  z-index: 10;
+}
+
+.c6 {
+  list-style: none;
+}
+
+.c8 {
+  background: #fff;
+  border-bottom: solid 1px #c3c4c7;
+  padding: 12px;
+}
+
+.c8:last-child {
+  border: 0;
+}
+
+.c7 {
+  background: #fff;
+  border-bottom: solid 1px #c3c4c7;
+  padding: 12px;
+  background: #fffedc;
+}
+
+.c7:last-child {
+  border: 0;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <svg
+        color="#b4b8bf"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": "#b4b8bf",
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="11"
+          cy="11"
+          r="8"
+        />
+        <line
+          x1="21"
+          x2="16.65"
+          y1="21"
+          y2="16.65"
+        />
+      </svg>
+    </div>
+    <input
+      className="c3"
+      onChange={[Function]}
+      onKeyDown={[Function]}
+      value="foo"
+    />
+    <button
+      className="c4"
+      onClick={[Function]}
+      title="Clear"
+    >
+      <svg
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <line
+          x1="18"
+          x2="6"
+          y1="6"
+          y2="18"
+        />
+        <line
+          x1="6"
+          x2="18"
+          y1="6"
+          y2="18"
+        />
+      </svg>
+    </button>
+  </div>
+  <div
+    className="c5"
+  >
+    <ul
+      className="c6"
+    >
+      <li
+        className="c7"
+        onClick={[Function]}
+        onMouseMove={[Function]}
+      >
+        foo1
+      </li>
+      <li
+        className="c8"
+        onClick={[Function]}
+        onMouseMove={[Function]}
+      >
+        foo2
+      </li>
+      <li
+        className="c8"
+        onClick={[Function]}
+        onMouseMove={[Function]}
+      >
+        foo5
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`input should change focus on mouse hover 1`] = `
+.c1 {
+  width: 100%;
+  height: 40px;
+  position: relative;
+}
+
+.c2 {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  padding: 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  margin: 0;
+  padding: 8px;
+  border: 0;
+  background: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  right: 0;
+  top: 0;
+}
+
+.c3 {
+  width: 100%;
+  height: 100%;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 8px 24px;
+  z-index: 0;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.c0 {
+  width: 100%;
+  position: relative;
+  max-width: 480px;
+}
+
+.c5 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  max-height: 344px;
+  overflow-y: scroll;
+  border: solid 1px #c3c4c7;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  z-index: 10;
+}
+
+.c6 {
+  list-style: none;
+}
+
+.c7 {
+  background: #fff;
+  border-bottom: solid 1px #c3c4c7;
+  padding: 12px;
+}
+
+.c7:last-child {
+  border: 0;
+}
+
+.c8 {
+  background: #fff;
+  border-bottom: solid 1px #c3c4c7;
+  padding: 12px;
+  background: #fffedc;
+}
+
+.c8:last-child {
+  border: 0;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <svg
+        color="#b4b8bf"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": "#b4b8bf",
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="11"
+          cy="11"
+          r="8"
+        />
+        <line
+          x1="21"
+          x2="16.65"
+          y1="21"
+          y2="16.65"
+        />
+      </svg>
+    </div>
+    <input
+      className="c3"
+      onChange={[Function]}
+      onKeyDown={[Function]}
+      value="foo"
+    />
+    <button
+      className="c4"
+      onClick={[Function]}
+      title="Clear"
+    >
+      <svg
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <line
+          x1="18"
+          x2="6"
+          y1="6"
+          y2="18"
+        />
+        <line
+          x1="6"
+          x2="18"
+          y1="6"
+          y2="18"
+        />
+      </svg>
+    </button>
+  </div>
+  <div
+    className="c5"
+  >
+    <ul
+      className="c6"
+    >
+      <li
+        className="c7"
+        onClick={[Function]}
+        onMouseMove={[Function]}
+      >
+        foo1
+      </li>
+      <li
+        className="c8"
+        onClick={[Function]}
+        onMouseMove={[Function]}
+      >
+        foo2
+      </li>
+      <li
+        className="c7"
+        onClick={[Function]}
+        onMouseMove={[Function]}
+      >
+        foo5
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`input should render no result 1`] = `
+.c1 {
+  width: 100%;
+  height: 40px;
+  position: relative;
+}
+
+.c2 {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  padding: 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  margin: 0;
+  padding: 8px;
+  border: 0;
+  background: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  right: 0;
+  top: 0;
+}
+
+.c3 {
+  width: 100%;
+  height: 100%;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 8px 24px;
+  z-index: 0;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.c0 {
+  width: 100%;
+  position: relative;
+  max-width: 480px;
+}
+
+.c5 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  max-height: 344px;
+  overflow-y: scroll;
+  border: solid 1px #c3c4c7;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  z-index: 10;
+}
+
+.c6 {
+  list-style: none;
+}
+
+.c7 {
+  background: #fff;
+  border-bottom: solid 1px #c3c4c7;
+  padding: 12px;
+}
+
+.c7:last-child {
+  border: 0;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <svg
+        color="#b4b8bf"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": "#b4b8bf",
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="11"
+          cy="11"
+          r="8"
+        />
+        <line
+          x1="21"
+          x2="16.65"
+          y1="21"
+          y2="16.65"
+        />
+      </svg>
+    </div>
+    <input
+      className="c3"
+      onChange={[Function]}
+      onKeyDown={[Function]}
+      value="value"
+    />
+    <button
+      className="c4"
+      onClick={[Function]}
+      title="Clear"
+    >
+      <svg
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <line
+          x1="18"
+          x2="6"
+          y1="6"
+          y2="18"
+        />
+        <line
+          x1="6"
+          x2="18"
+          y1="6"
+          y2="18"
+        />
+      </svg>
+    </button>
+  </div>
+  <div
+    className="c5"
+  >
+    <ul
+      className="c6"
+    >
+      <li
+        className="c7"
+      >
+        <p>
+          No Results
+        </p>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`input should render with minimal props 1`] = `
+.c1 {
+  width: 100%;
+  height: 40px;
+  position: relative;
+}
+
+.c2 {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  padding: 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  width: 100%;
+  height: 100%;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 8px 24px;
+  z-index: 0;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.c0 {
+  width: 100%;
+  position: relative;
+  max-width: 480px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <svg
+        color="#b4b8bf"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": "#b4b8bf",
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="11"
+          cy="11"
+          r="8"
+        />
+        <line
+          x1="21"
+          x2="16.65"
+          y1="21"
+          y2="16.65"
+        />
+      </svg>
+    </div>
+    <input
+      className="c3"
+      onChange={[Function]}
+      onKeyDown={[Function]}
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`input should render with suggestions 1`] = `
+.c1 {
+  width: 100%;
+  height: 40px;
+  position: relative;
+}
+
+.c2 {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  padding: 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  margin: 0;
+  padding: 8px;
+  border: 0;
+  background: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  right: 0;
+  top: 0;
+}
+
+.c3 {
+  width: 100%;
+  height: 100%;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 8px 24px;
+  z-index: 0;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.c0 {
+  width: 100%;
+  position: relative;
+  max-width: 480px;
+}
+
+.c5 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  max-height: 344px;
+  overflow-y: scroll;
+  border: solid 1px #c3c4c7;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  z-index: 10;
+}
+
+.c6 {
+  list-style: none;
+}
+
+.c7 {
+  background: #fff;
+  border-bottom: solid 1px #c3c4c7;
+  padding: 12px;
+}
+
+.c7:last-child {
+  border: 0;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <svg
+        color="#b4b8bf"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": "#b4b8bf",
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="11"
+          cy="11"
+          r="8"
+        />
+        <line
+          x1="21"
+          x2="16.65"
+          y1="21"
+          y2="16.65"
+        />
+      </svg>
+    </div>
+    <input
+      className="c3"
+      onChange={[Function]}
+      onKeyDown={[Function]}
+      value="value"
+    />
+    <button
+      className="c4"
+      onClick={[Function]}
+      title="Clear"
+    >
+      <svg
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <line
+          x1="18"
+          x2="6"
+          y1="6"
+          y2="18"
+        />
+        <line
+          x1="6"
+          x2="18"
+          y1="6"
+          y2="18"
+        />
+      </svg>
+    </button>
+  </div>
+  <div
+    className="c5"
+  >
+    <ul
+      className="c6"
+    >
+      <li
+        className="c7"
+        onClick={[Function]}
+        onMouseMove={[Function]}
+      >
+        foo1
+      </li>
+      <li
+        className="c7"
+        onClick={[Function]}
+        onMouseMove={[Function]}
+      >
+        foo2
+      </li>
+      <li
+        className="c7"
+        onClick={[Function]}
+        onMouseMove={[Function]}
+      >
+        foo5
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`input should render without suggestions after selection 1`] = `
+.c1 {
+  width: 100%;
+  height: 40px;
+  position: relative;
+}
+
+.c2 {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  padding: 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  margin: 0;
+  padding: 8px;
+  border: 0;
+  background: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  right: 0;
+  top: 0;
+}
+
+.c3 {
+  width: 100%;
+  height: 100%;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 8px 24px;
+  z-index: 0;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.c0 {
+  width: 100%;
+  position: relative;
+  max-width: 480px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <svg
+        color="#b4b8bf"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": "#b4b8bf",
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="11"
+          cy="11"
+          r="8"
+        />
+        <line
+          x1="21"
+          x2="16.65"
+          y1="21"
+          y2="16.65"
+        />
+      </svg>
+    </div>
+    <input
+      className="c3"
+      onChange={[Function]}
+      onKeyDown={[Function]}
+      value="value"
+    />
+    <button
+      className="c4"
+      onClick={[Function]}
+      title="Clear"
+    >
+      <svg
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <line
+          x1="18"
+          x2="6"
+          y1="6"
+          y2="18"
+        />
+        <line
+          x1="6"
+          x2="18"
+          y1="6"
+          y2="18"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`input should reset focus on value change 1`] = `
+.c1 {
+  width: 100%;
+  height: 40px;
+  position: relative;
+}
+
+.c2 {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  padding: 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  margin: 0;
+  padding: 8px;
+  border: 0;
+  background: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  right: 0;
+  top: 0;
+}
+
+.c3 {
+  width: 100%;
+  height: 100%;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 8px 24px;
+  z-index: 0;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.c0 {
+  width: 100%;
+  position: relative;
+  max-width: 480px;
+}
+
+.c5 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  max-height: 344px;
+  overflow-y: scroll;
+  border: solid 1px #c3c4c7;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  z-index: 10;
+}
+
+.c6 {
+  list-style: none;
+}
+
+.c7 {
+  background: #fff;
+  border-bottom: solid 1px #c3c4c7;
+  padding: 12px;
+}
+
+.c7:last-child {
+  border: 0;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <svg
+        color="#b4b8bf"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": "#b4b8bf",
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="11"
+          cy="11"
+          r="8"
+        />
+        <line
+          x1="21"
+          x2="16.65"
+          y1="21"
+          y2="16.65"
+        />
+      </svg>
+    </div>
+    <input
+      className="c3"
+      onChange={[Function]}
+      onKeyDown={[Function]}
+      value="valueupdate"
+    />
+    <button
+      className="c4"
+      onClick={[Function]}
+      title="Clear"
+    >
+      <svg
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <line
+          x1="18"
+          x2="6"
+          y1="6"
+          y2="18"
+        />
+        <line
+          x1="6"
+          x2="18"
+          y1="6"
+          y2="18"
+        />
+      </svg>
+    </button>
+  </div>
+  <div
+    className="c5"
+  >
+    <ul
+      className="c6"
+    >
+      <li
+        className="c7"
+        onClick={[Function]}
+        onMouseMove={[Function]}
+      >
+        foo1
+      </li>
+      <li
+        className="c7"
+        onClick={[Function]}
+        onMouseMove={[Function]}
+      >
+        foo2
+      </li>
+      <li
+        className="c7"
+        onClick={[Function]}
+        onMouseMove={[Function]}
+      >
+        foo5
+      </li>
+    </ul>
+  </div>
+</div>
+`;
